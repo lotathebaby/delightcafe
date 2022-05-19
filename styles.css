@@ -1,0 +1,80 @@
+body {
+    background-image: url("coffee2.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-size: contain;
+    margin: 0 auto;
+    color: white;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border-radius: 15px;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+}
+.head {
+    font-style: italic;
+}
+h1, h2, p {
+    text-align: center;
+}
+.menu {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+}
+hr {
+    height: 2px;
+    background-color: greenyellow;
+    border-color: goldenrod;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.flavor, .pan {
+    text-align: left;
+    width: 50%;
+}
+.price {
+    text-align: right;
+    width: 50%;
+}
+/*FOOTER*/
+footer {
+    font-size: 14px;
+}
+.address {
+    margin-bottom: 5px;
+}
+a {
+    color: black;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: brown;
+}
